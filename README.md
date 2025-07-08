@@ -37,3 +37,24 @@ A smart gate pass management system using **QR Code**, **MySQL**, and **Tkinter*
 git clone https://github.com/AbhiKharade/gate-pass-management-system.git
 cd gate-pass-management-system
 
+---
+
+## 🧾 QR Code Generator
+
+This script allows you to generate QR codes for individuals (students, employees, or visitors) which can be scanned later during entry/exit.
+
+### 📁 File:
+`qr_generator.py`
+
+### 🛠️ How it Works:
+
+- Takes **input data** (like name, roll number, or ID)
+- Generates a QR code image using the **qrcode** library
+- Saves the image locally (can be printed or shown on mobile)
+
+### ▶️ Example Usage:
+
+```bash
+python qr_generator.py
+
+
